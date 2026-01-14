@@ -1,0 +1,19 @@
+{
+  "name": "iconify-png-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "iconify-png-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "iconify", "png", "icon"],
+  "author": "",
+  "license": "ISC",
+  "description": "Iconify MCP Server with PNG download support",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "sharp": "^0.34.5"
+  }
+}
