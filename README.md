@@ -12,7 +12,13 @@
 ## 安装
 
 ```bash
-npm install -g .
+npm install -g iconify-png-mcp
+```
+
+或者使用 npx 直接运行:
+
+```bash
+npx iconify-png-mcp
 ```
 
 ## MCP 配置
@@ -21,8 +27,8 @@ npm install -g .
 {
   "mcpServers": {
     "iconify": {
-      "command": "iconify-png-mcp",
-      "args": [],
+      "command": "npx",
+      "args": ["-y", "iconify-png-mcp"],
       "autoApprove": ["search_icons", "get_icon_svg", "download_icon_png", "get_all_icon_sets"]
     }
   }
@@ -36,3 +42,7 @@ npm install -g .
 - size: 64
 - color: #000000
 - savePath: C:/icons/home.png
+
+## License
+
+MIT

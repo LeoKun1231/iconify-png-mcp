@@ -8,10 +8,25 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": ["mcp", "iconify", "png", "icon"],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["mcp", "iconify", "png", "icon", "svg", "download", "model-context-protocol"],
+  "author": "LeoKun1231",
+  "license": "MIT",
   "description": "Iconify MCP Server with PNG download support",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeoKun1231/iconify-png-mcp.git"
+  },
+  "homepage": "https://github.com/LeoKun1231/iconify-png-mcp",
+  "bugs": {
+    "url": "https://github.com/LeoKun1231/iconify-png-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.25.2",
     "sharp": "^0.34.5"
