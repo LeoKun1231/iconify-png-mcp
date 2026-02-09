@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1770642716481,
+  "projectRoot": "/mnt/c/Users/pc/Desktop/mcp-icon",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": ">=18.0.0",
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "npm",
+    "runtime": "Node.js 18.0.0"
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": "npm run start",
+    "scripts": {
+      "start": "node index.js"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {},
+  "hotPaths": [
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1770642739859,
+      "type": "file"
+    },
+    {
+      "path": "index.js",
+      "accessCount": 1,
+      "lastAccessed": 1770642740276,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
